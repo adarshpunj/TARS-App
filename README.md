@@ -7,4 +7,4 @@
 
 ![whatsapp image 2018-07-15 at 4 06 42 pm](https://user-images.githubusercontent.com/30762976/42733080-2d0fd852-8849-11e8-9474-bccd890a9fd6.jpeg)
 
-###### Tested on Android versions 5 (Lollipop) , 6(Marshmallow), and 8 (Oreo).
+###### Tested on Android versions Lollipop(v5), Marshmallow(v6), and Oreo(v8).
