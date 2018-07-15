@@ -38,7 +38,7 @@ public class MainActivity extends Activity{
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://github.com/adarshpunj")));
+                startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://github.com/adarshpunj/TARS-App")));
             }
         });
     }
