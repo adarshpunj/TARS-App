@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="42sp"
+            android:layout_marginTop="280dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="Enter Movie Title"
+            android:textColorHighlight="#b5d1ff"
+            android:textColorHint="#FFF"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="261sp"
+            android:src="@drawable/bg" />
+
+        <ImageView
+            android:id="@+id/download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320sp"/>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="27dp"
+            android:text="TARS Subtitle Downloader is a quick and free way to download movie subtitles."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-smallcaps"/>
+        <ImageView
+            android:id="@+id/github"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/github"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500sp"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
