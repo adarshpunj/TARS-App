@@ -71,7 +71,7 @@ public class ThreadProcess extends AsyncTask<Void,Void,Void> {
         try {
             String userInput = String.valueOf(MainActivity.input.getText());
             userInput.replaceAll("\\s","+");
-            URL url = new URL("http://adarshpunj.pythonanywhere.com/movie/"+userInput);
+            URL url = new URL("http://adarshpunj.pythonanywhere.com/subtitle/"+userInput);
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
